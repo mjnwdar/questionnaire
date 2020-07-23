@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data_analysis/data_analysis.iml" filepath="$PROJECT_DIR$/data_analysis/data_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/questionnaire-fontend/questionnaire-fontend.iml" filepath="$PROJECT_DIR$/questionnaire-fontend/questionnaire-fontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/questionnaire-server/questionnaire-server.iml" filepath="$PROJECT_DIR$/questionnaire-server/questionnaire-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/questionnaire-spark/questionnaire-spark.iml" filepath="$PROJECT_DIR$/questionnaire-spark/questionnaire-spark.iml" />
+    </modules>
+  </component>
+</project>

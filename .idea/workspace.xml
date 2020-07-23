@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="def5ded5-1340-47a4-8f18-360ad757c182" name="Commit" comment="增加逻辑回归代码">
+      <change beforePath="$PROJECT_DIR$/questionnaire-fontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire-fontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questionnaire-spark/src/main/java/com/zzq/system/core/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire-spark/src/main/java/com/zzq/system/core/LogisticRegression.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1eDvV1bmsf8LzEk2ZddvF2CCf0X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue}" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Workspace\questionnaire\questionnaire-fontend\node_modules\prettier" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zzq.system.task" />
+      <recent name="com.zzq" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzq.system.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SparkApplication">
+    <configuration name="DataAnalysisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data_analysis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.graduationproject.DataAnalysisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="questionnaire-spark" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.SparkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SurveyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="questionnaire-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.SurveyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Commit">
+      <branch name="master" repository="D:\Workspace\questionnaire" />
+      <changelist id="def5ded5-1340-47a4-8f18-360ad757c182" name="Commit" comment="" />
+      <created>1593868997839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593869464887</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交项目">
+      <created>1594044301844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594044301844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加逻辑回归代码">
+      <created>1594909153512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594909153512</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加逻辑回归代码">
+      <created>1594910468053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594910468053</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加逻辑回归代码">
+      <created>1594910739203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594910739203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <option name="createBranch" value="false" />
+    <option name="useBranch" value="true" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交项目" />
+    <MESSAGE value="增加逻辑回归代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加逻辑回归代码" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="109" key="#HTTP_Proxy" timestamp="1595511254522">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="691" y="109" key="#HTTP_Proxy/0.0.1920.1050@0.0.1920.1050" timestamp="1595511254522" />
+    <state x="582" y="188" key="#Inspections" timestamp="1593959207525">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="582" y="188" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1593959207525" />
+    <state x="452" y="79" key="#Plugins" timestamp="1594029583375">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="79" key="#Plugins/0.0.1920.1050@0.0.1920.1050" timestamp="1594029583375" />
+    <state x="312" y="0" key="#Project_Structure" timestamp="1593869112012">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="312" y="0" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1593869112012" />
+    <state x="686" y="76" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1594998866611">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="686" y="76" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1594998866611" />
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1594030660114">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1594030660114" />
+    <state x="426" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593872525243">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="426" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593872525243" />
+    <state x="636" y="374" width="792" height="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594030630456">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="374" width="792" height="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1594030630456" />
+    <state x="636" y="388" width="712" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593872533122">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="388" width="712" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1593872533122" />
+    <state x="624" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593872377520">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="624" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593872377520" />
+    <state x="693" y="236" width="553" height="588" key="#com.intellij.tools.ToolEditorDialog" timestamp="1594999102244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="693" y="236" width="553" height="588" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1594999102244" />
+    <state x="429" y="142" key="CommitChangelistDialog2" timestamp="1594910738628">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="429" y="142" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1594910738628" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1594030024179">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1594030024179" />
+    <state x="687" y="181" key="FileChooserDialogImpl" timestamp="1595511316486">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="687" y="181" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1595511316486" />
+    <state width="1895" height="732" key="GridCell.Tab.0.bottom" timestamp="1594999231934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="732" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594999231934" />
+    <state width="1895" height="732" key="GridCell.Tab.0.center" timestamp="1594999231934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="732" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594999231934" />
+    <state width="1895" height="732" key="GridCell.Tab.0.left" timestamp="1594999231934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="732" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594999231934" />
+    <state width="1895" height="732" key="GridCell.Tab.0.right" timestamp="1594999231934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="732" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594999231934" />
+    <state width="1895" height="858" key="GridCell.Tab.1.bottom" timestamp="1594910756618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756618" />
+    <state width="1895" height="858" key="GridCell.Tab.1.center" timestamp="1594910756618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756618" />
+    <state width="1895" height="858" key="GridCell.Tab.1.left" timestamp="1594910756618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756618" />
+    <state width="1895" height="858" key="GridCell.Tab.1.right" timestamp="1594910756618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756618" />
+    <state width="1895" height="858" key="GridCell.Tab.2.bottom" timestamp="1594910756619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756619" />
+    <state width="1895" height="858" key="GridCell.Tab.2.center" timestamp="1594910756619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756619" />
+    <state width="1895" height="858" key="GridCell.Tab.2.left" timestamp="1594910756619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756619" />
+    <state width="1895" height="858" key="GridCell.Tab.2.right" timestamp="1594910756619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1895" height="858" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594910756619" />
+    <state x="476" y="166" key="NewModule_or_Project.wizard" timestamp="1594816284711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="476" y="166" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1594816284711" />
+    <state x="381" y="0" key="SettingsEditor" timestamp="1595511321936">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="381" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595511321936" />
+    <state x="672" y="326" key="SimpleOpenTaskDialog" timestamp="1593869429194">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="672" y="326" key="SimpleOpenTaskDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593869429194" />
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1594910740951">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1594910740951" />
+    <state x="695" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593869481321">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="695" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1593869481321" />
+    <state x="579" y="200" width="761" height="650" key="find.popup" timestamp="1594029863291">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="579" y="200" width="761" height="650" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1594029863291" />
+    <state x="532" y="239" width="840" height="1034" key="run.anything.popup" timestamp="1594999158274">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="532" y="239" width="840" height="1034" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1594999158274" />
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1594999119450">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1594999119450" />
+  </component>
+</project>
