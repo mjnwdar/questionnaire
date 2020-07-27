@@ -76,7 +76,8 @@ export default {
 					() => {
 						if (
 							this.customer &&
-							(this.customer.rewards < 0 || this.customer.rewards > 9999)
+							(this.customer.rewards < 0 ||
+								this.customer.rewards > 9999)
 						) {
 							return 'Reward is required. It must be bewteen 0 and 9999'
 						}
@@ -87,8 +88,9 @@ export default {
 					() => {
 						/* eslint-disable no-useless-escape */
 						const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-						if (this.customer && !re.test(this.customer.email))
+						if (this.customer && !re.test(this.customer.email)) {
 							return 'Email is invalid.'
+						}
 						return true
 					}
 				]

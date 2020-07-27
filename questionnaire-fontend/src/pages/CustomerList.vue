@@ -127,10 +127,16 @@ export default {
 			this.dialog = true
 		},
 		onConfirm() {
-			Store.dispatch('customers/deleteCustomer', this.orderId).then(() => {
-				Store.dispatch('customers/searchCustomers', this.query, this.pagination)
-				Store.dispatch('customers/closeSnackBar', 2000)
-			})
+			Store.dispatch('customers/deleteCustomer', this.orderId).then(
+				() => {
+					Store.dispatch(
+						'customers/searchCustomers',
+						this.query,
+						this.pagination
+					)
+					Store.dispatch('customers/closeSnackBar', 2000)
+				}
+			)
 			this.dialog = false
 		},
 		onCancel() {
@@ -142,7 +148,11 @@ export default {
 			this.appUtil.buildSearchFilters(this.searchVm)
 			this.query = this.appUtil.buildJsonServerQuery(this.searchVm)
 			this.quickSearch = ''
-			Store.dispatch('customers/searchCustomers', this.query, this.pagination)
+			Store.dispatch(
+				'customers/searchCustomers',
+				this.query,
+				this.pagination
+			)
 		},
 		clearSearchFilters() {
 			this.rightDrawer = !this.rightDrawer

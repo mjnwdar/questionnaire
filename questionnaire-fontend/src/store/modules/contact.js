@@ -98,8 +98,7 @@ const actions = {
 		})
 	},
 	deleteCustomer({ commit, dispatch }, id, query, pagination) {
-		api
-			.deleteData('customers/' + id.toString())
+		api.deleteData('customers/' + id.toString())
 			.then((res) => {
 				return new Promise((resolve, reject) => {
 					sendSuccessNotice(commit, 'Operation is done.')
@@ -108,14 +107,16 @@ const actions = {
 			})
 			.catch((err) => {
 				console.log(err)
-				sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+				sendErrorNotice(
+					commit,
+					'Operation failed! Please try again later. '
+				)
 				closeNotice(commit, 1500)
 			})
 	},
 	saveCustomer({ commit, dispatch }, customer) {
 		if (!customer.id) {
-			api
-				.postData('customers/', customer)
+			api.postData('customers/', customer)
 				.then((res) => {
 					const customer = res.data
 					commit('setCustomer', { customer })
@@ -123,12 +124,14 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		} else {
-			api
-				.putData('customers/' + customer.id.toString(), customer)
+			api.putData('customers/' + customer.id.toString(), customer)
 				.then((res) => {
 					const customer = res.data
 					commit('setCustomer', { customer })
@@ -136,7 +139,10 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		}

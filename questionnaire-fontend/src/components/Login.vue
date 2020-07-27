@@ -64,7 +64,8 @@ export default {
 				} else {
 					// eslint-disable-next-line no-undef
 					this.$router.push(
-						this.$route.query.redirect || Store.state.user.activeMenu
+						this.$route.query.redirect ||
+							Store.state.user.activeMenu
 					)
 				}
 			})

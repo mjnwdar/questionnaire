@@ -135,7 +135,11 @@ export default {
 		},
 		onConfirm() {
 			Store.dispatch('orders/deleteOrder', this.orderId).then(() => {
-				Store.dispatch('orders/searchOrders', this.query, this.pagination)
+				Store.dispatch(
+					'orders/searchOrders',
+					this.query,
+					this.pagination
+				)
 				Store.dispatch('orders/closeSnackBar', 2000)
 			})
 			this.dialog = false

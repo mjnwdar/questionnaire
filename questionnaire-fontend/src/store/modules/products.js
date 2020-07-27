@@ -97,8 +97,7 @@ const actions = {
 		})
 	},
 	deleteProduct({ commit, dispatch }, id) {
-		api
-			.deleteData('products/' + id.toString())
+		api.deleteData('products/' + id.toString())
 			.then((res) => {
 				return new Promise((resolve, reject) => {
 					sendSuccessNotice(commit, 'Operation is done.')
@@ -107,15 +106,17 @@ const actions = {
 			})
 			.catch((err) => {
 				console.log(err)
-				sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+				sendErrorNotice(
+					commit,
+					'Operation failed! Please try again later. '
+				)
 				closeNotice(commit, 1500)
 			})
 	},
 	saveProduct({ commit, dispatch }, product) {
 		delete product.category
 		if (!product.id) {
-			api
-				.postData('products/', product)
+			api.postData('products/', product)
 				.then((res) => {
 					const product = res.data
 					commit('setProduct', { product })
@@ -124,12 +125,14 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		} else {
-			api
-				.putData('products/' + product.id.toString(), product)
+			api.putData('products/' + product.id.toString(), product)
 				.then((res) => {
 					const product = res.data
 					commit('setProduct', { product })
@@ -138,7 +141,10 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		}

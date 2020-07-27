@@ -73,7 +73,9 @@ const actions = {
 	},
 	getProductsByCategory({ commit }, categoryId) {
 		if (categoryId) {
-			api.getData('products?_expand=category&categoryId=' + categoryId).then(
+			api.getData(
+				'products?_expand=category&categoryId=' + categoryId
+			).then(
 				(res) => {
 					const products = res.data.map((p) => {
 						p.text = p.productName
@@ -151,8 +153,7 @@ const actions = {
 		})
 	},
 	deleteOrder({ state, commit, dispatch }, id) {
-		api
-			.deleteData('orders/' + id.toString())
+		api.deleteData('orders/' + id.toString())
 			.then((res) => {
 				return new Promise((resolve, reject) => {
 					sendSuccessNotice(commit, 'Operation is done.')
@@ -162,7 +163,10 @@ const actions = {
 			})
 			.catch((err) => {
 				console.log(err)
-				sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+				sendErrorNotice(
+					commit,
+					'Operation failed! Please try again later. '
+				)
 				closeNotice(commit, 1500)
 			})
 	},
@@ -183,8 +187,7 @@ const actions = {
 	saveOrder({ commit, dispatch }, order) {
 		// delete order;
 		if (!order.id) {
-			api
-				.postData('orders/', order)
+			api.postData('orders/', order)
 				.then((res) => {
 					const order = res.data
 					commit('setOrder', { order })
@@ -192,12 +195,14 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		} else {
-			api
-				.putData('orders/' + order.id.toString(), order)
+			api.putData('orders/' + order.id.toString(), order)
 				.then((res) => {
 					const order = res.data
 					commit('setOrder', { order })
@@ -205,7 +210,10 @@ const actions = {
 				})
 				.catch((err) => {
 					console.log(err)
-					sendErrorNotice(commit, 'Operation failed! Please try again later. ')
+					sendErrorNotice(
+						commit,
+						'Operation failed! Please try again later. '
+					)
 					closeNotice(commit, 1500)
 				})
 		}

@@ -41,7 +41,10 @@ export default {
 			searchVm.filters = []
 			if (searchVm.contains) {
 				Object.keys(searchVm.contains).forEach((k) => {
-					if (searchVm.contains.hasOwnProperty(k) && searchVm.contains[k]) {
+					if (
+						searchVm.contains.hasOwnProperty(k) &&
+						searchVm.contains[k]
+					) {
 						searchVm.filters.push({
 							property: k,
 							op: SearchFilterOps.Contains,
@@ -53,7 +56,10 @@ export default {
 
 			if (searchVm.equals) {
 				Object.keys(searchVm.equals).forEach((k) => {
-					if (searchVm.equals.hasOwnProperty(k) && searchVm.equals[k]) {
+					if (
+						searchVm.equals.hasOwnProperty(k) &&
+						searchVm.equals[k]
+					) {
 						searchVm.filters.push({
 							property: k,
 							op: SearchFilterOps.Equals,
@@ -65,7 +71,10 @@ export default {
 
 			if (searchVm.startsWith) {
 				Object.keys(searchVm.startsWith).forEach((k) => {
-					if (searchVm.startsWith.hasOwnProperty(k) && searchVm.startsWith[k]) {
+					if (
+						searchVm.startsWith.hasOwnProperty(k) &&
+						searchVm.startsWith[k]
+					) {
 						searchVm.filters.push({
 							property: k,
 							op: SearchFilterOps.StartsWith,
@@ -77,7 +86,10 @@ export default {
 
 			if (searchVm.endsWith) {
 				Object.keys(searchVm.endsWith).forEach((k) => {
-					if (searchVm.endsWith.hasOwnProperty(k) && searchVm.endsWith[k]) {
+					if (
+						searchVm.endsWith.hasOwnProperty(k) &&
+						searchVm.endsWith[k]
+					) {
 						searchVm.filters.push({
 							property: k,
 							op: SearchFilterOps.EndsWith,
@@ -89,13 +101,17 @@ export default {
 
 			if (searchVm.between) {
 				Object.keys(searchVm.between).forEach((k) => {
-					if (searchVm.between.hasOwnProperty(k) && searchVm.between[k]) {
+					if (
+						searchVm.between.hasOwnProperty(k) &&
+						searchVm.between[k]
+					) {
 						if (
 							searchVm.between[k]['former'] > 0 ||
 							searchVm.between[k]['latter'] > 0
 						) {
 							if (
-								searchVm.between[k]['former'] < searchVm.between[k]['latter']
+								searchVm.between[k]['former'] <
+								searchVm.between[k]['latter']
 							) {
 								searchVm.filters.push({
 									property: k,

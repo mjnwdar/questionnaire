@@ -7,7 +7,12 @@ export default Doughnut.extend({
 				labels: ['优秀客户', '良好客户', '一般客户', '其他'],
 				datasets: [
 					{
-						backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
+						backgroundColor: [
+							'#41B883',
+							'#E46651',
+							'#00D8FF',
+							'#DD1B16'
+						],
 						data: [40, 20, 80, 10]
 					}
 				]

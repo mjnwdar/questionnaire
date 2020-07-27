@@ -18,7 +18,9 @@ function getId(action, model) {
 	action = action.substr(model.length + 1)
 	return (
 		action.length > 0 &&
-		(action.includes('?') ? action.substring(0, action.indexOf('?')) : action)
+		(action.includes('?')
+			? action.substring(0, action.indexOf('?'))
+			: action)
 	)
 }
 
@@ -64,7 +66,9 @@ export default {
 						expandId = result[expand + 'Id']
 						result[expand] =
 							ds[expandModel][
-								ds[expandModel].findIndex((d) => d.id === expandId)
+								ds[expandModel].findIndex(
+									(d) => d.id === expandId
+								)
 							]
 					}
 				} else {
@@ -73,11 +77,16 @@ export default {
 							expand =
 								expandModel === 'categories'
 									? 'category'
-									: expandModel.substr(0, expandModel.length - 1)
+									: expandModel.substr(
+											0,
+											expandModel.length - 1
+									  )
 							expandId = m[expand + 'Id']
 							m[expand] =
 								ds[expandModel][
-									ds[expandModel].findIndex((d) => d.id === expandId)
+									ds[expandModel].findIndex(
+										(d) => d.id === expandId
+									)
 								]
 						}
 						return m

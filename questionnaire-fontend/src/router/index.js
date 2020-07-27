@@ -174,7 +174,11 @@ export default new Router({
 				{
 					call: 'transition',
 					modifier: 'temp',
-					argument: { speed: '1.5s', opacity: '0.6s', termination: 400 }
+					argument: {
+						speed: '1.5s',
+						opacity: '0.6s',
+						termination: 400
+					}
 				}
 			]
 		}

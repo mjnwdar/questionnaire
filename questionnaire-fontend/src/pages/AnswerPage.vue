@@ -121,14 +121,24 @@ export default {
 				{
 					topic: '理财顾问主动联系你的频率多少你能够接受？',
 					type: 'checkbox',
-					options: ['A.每天一次', 'B.三天一次', 'C.一周一次', 'D.一月一次']
+					options: [
+						'A.每天一次',
+						'B.三天一次',
+						'C.一周一次',
+						'D.一月一次'
+					]
 				},
 				{
-					topic: '如果我公司现在向你推荐一款好的产品，你是否会马上投资？',
+					topic:
+						'如果我公司现在向你推荐一款好的产品，你是否会马上投资？',
 					type: 'checkbox',
 					options: ['A.会', 'B.不会']
 				},
-				{ topic: '你对公司有什么意见？', type: 'textarea', isMandatory: true }
+				{
+					topic: '你对公司有什么意见？',
+					type: 'textarea',
+					isMandatory: true
+				}
 			],
 			questionModel: {
 				typeName: '公司问答',
@@ -144,11 +154,12 @@ export default {
 			this.dialog = true
 		},
 		onConfirm() {
-			Store.dispatch('personal/saveInfo', Object.assign({}, this.user)).then(
-				(res) => {
-					this.$router.push('/')
-				}
-			)
+			Store.dispatch(
+				'personal/saveInfo',
+				Object.assign({}, this.user)
+			).then((res) => {
+				this.$router.push('/')
+			})
 			this.dialog = false
 		},
 		onCancel() {

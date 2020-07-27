@@ -113,7 +113,11 @@ export default {
 			this.appUtil.buildSearchFilters(this.searchVm)
 			this.query = this.appUtil.buildJsonServerQuery(this.searchVm)
 			this.quickSearch = ''
-			Store.dispatch('products/searchProducts', this.query, this.pagination)
+			Store.dispatch(
+				'products/searchProducts',
+				this.query,
+				this.pagination
+			)
 		},
 		reloadData() {
 			this['test']()
